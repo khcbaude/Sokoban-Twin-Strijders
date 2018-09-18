@@ -8,10 +8,12 @@ namespace Sokoban
     public class Controller
     {
         private Doolhof doolhof;
+        private View.MainView mainView;
 
         public Controller()
         {
             doolhof = new Doolhof();
+            mainView = new View.MainView();
         }
 
         public void start()

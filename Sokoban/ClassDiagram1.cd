@@ -4,14 +4,14 @@
     <Position X="1.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAACAQ=</HashCode>
-      <FileName>Vorkheftruck.cs</FileName>
+      <FileName>Model\Vorkheftruck.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Doolhof">
     <Position X="4.25" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAEAQAAAAAAAAAAAAAAIAIAAAAAAAAAgAAAAA=</HashCode>
-      <FileName>Doolhof.cs</FileName>
+      <HashCode>AAAAAAAAEAQAAAAAAAQAAAAAAIAIAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Model\Doolhof.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Field Name="vorkHefTruck" />
@@ -19,8 +19,8 @@
     <ShowAsCollectionAssociation>
       <Field Name="kisten" />
       <Field Name="muren" />
-      <Field Name="vloeren" />
       <Field Name="bestemmingen" />
+      <Field Name="vloeren" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Sokoban.Muur">
@@ -34,14 +34,14 @@
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Muur.cs</FileName>
+      <FileName>Model\Muur.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Kist">
     <Position X="1.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAAIAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>Kist.cs</FileName>
+      <FileName>Model\Kist.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Bestemming">
@@ -55,7 +55,7 @@
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Bestemming.cs</FileName>
+      <FileName>Model\Bestemming.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Vloer">
@@ -68,7 +68,7 @@
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Vloer.cs</FileName>
+      <FileName>Model\Vloer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Sokoban.Program" Collapsed="true">
@@ -81,10 +81,11 @@
   <Class Name="Sokoban.Controller">
     <Position X="4.25" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Controller.cs</FileName>
+      <HashCode>AAgAAAAAAAAAAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\Controller.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
+      <Field Name="mainView" />
       <Field Name="doolhof" />
     </ShowAsAssociation>
   </Class>
@@ -92,7 +93,14 @@
     <Position X="9" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
-      <FileName>Tegel.cs</FileName>
+      <FileName>Model\Tegel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.View.MainView" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainView.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
