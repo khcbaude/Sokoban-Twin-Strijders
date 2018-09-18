@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sokoban.Vorkheftruck">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAACAQ=</HashCode>
+      <FileName>Vorkheftruck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.Doolhof">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAQAAAAAAAAAAAAAAIAIAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Doolhof.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vorkHefTruck" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="kisten" />
+      <Field Name="muren" />
+      <Field Name="vloeren" />
+      <Field Name="bestemmingen" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Sokoban.Muur">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="Sokoban.Tegel" FixedToPoint="true">
+      <Path>
+        <Point X="9.75" Y="3" />
+        <Point X="9.75" Y="2.041" />
+        <Point X="8.25" Y="2.041" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Muur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.Kist">
+    <Position X="1.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAIAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Kist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.Bestemming">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="Sokoban.Tegel" FixedToPoint="true">
+      <Path>
+        <Point X="9.75" Y="4.103" />
+        <Point X="9.75" Y="5.232" />
+        <Point X="8.25" Y="5.232" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bestemming.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.Vloer">
+    <Position X="6.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="Sokoban.Tegel" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="9" Y="3.75" />
+        <Point X="8.25" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vloer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.Program" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sokoban.Controller">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="doolhof" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sokoban.Tegel">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Tegel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
